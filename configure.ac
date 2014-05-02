@@ -1,6 +1,7 @@
-ss this file with autoconf to produce a configure script.
-AC_INIT(src/margincalc.c)
-AM_INIT_AUTOMAKE(margincalc,0.0.1)
+dnl Process this file with autoconf to produce a configure script.
+AC_INIT([margincalc], [0.0.1])
+AC_CONFIG_SRCDIR([src/margincalc.c])
+AM_INIT_AUTOMAKE
 
 dnl Set of available languages.
 ALL_LINGUAS="en"
